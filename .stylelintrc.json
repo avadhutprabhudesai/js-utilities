@@ -1,0 +1,10 @@
+{
+  "extends": ["stylelint-config-sass-guidelines", "stylelint-prettier/recommended"],
+  "plugins": ["stylelint-scss"],
+  "rules": {
+    "order/properties-alphabetical-order": null,
+    "color-hex-length": "long",
+    "max-nesting-depth": 8,
+    "value-list-comma-newline-after": null
+  }
+}
