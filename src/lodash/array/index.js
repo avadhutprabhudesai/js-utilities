@@ -1,5 +1,3 @@
-/* eslint-disable no-unused-vars */
-
 export const chunk = (arr, size = 1) => {
   if (size === 0) return [];
   return arr.reduce((res, val, idx, array) => {
